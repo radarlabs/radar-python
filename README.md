@@ -1,5 +1,8 @@
 # radar-python
-Python library for the Radar API https://radar.io/documentation/api
+Python library for the [Radar API](https://radar.io/documentation/api)
+
+* **[Docs](https://radar-python.readthedocs.io/en/latest/)** 
+* **[PyPi](https://pypi.org/project/radar-python/)**
 
 The Radar Python library provides convenient access to Radar's APIs from
 your python applications or command line.
@@ -15,10 +18,7 @@ pip install radar-python
 ```
 
 ## Requirements
-Python 3.4+ (PyPy supported)
-
-# Documentation
-See the [Python API docs](https://readthedocs.org).
+Python 3.4+
 
 # Usage
 

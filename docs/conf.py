@@ -28,6 +28,7 @@ author = "Radar"
 # The full version, including alpha/beta/rc tags
 release = VERSION
 
+master_doc = "index"
 
 # -- General configuration ---------------------------------------------------
 

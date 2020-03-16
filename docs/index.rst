@@ -1,5 +1,3 @@
-.. _contents:
-
 Overview of Radar-python_
 =========================
 
