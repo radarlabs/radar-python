@@ -4,7 +4,7 @@ Python library for the Radar API https://radar.io/documentation/api
 The Radar Python library provides convenient access to Radar's APIs from
 your python applications or command line.
 
-[![CircleCI](https://circleci.com/gh/radarlabs/server.svg?style=svg)](https://circleci.com/gh/radarlabs/server)
+[![CircleCI](https://circleci.com/gh/radarlabs/radar-python/tree/master.svg?style=svg)](https://circleci.com/gh/radarlabs/radar-python/tree/master)
 
 # Installation
 
