@@ -1,0 +1,52 @@
+{
+  "live": false,
+  "geofences": [
+    {
+      "_id": "5aaaaa0a8e695a0037480000",
+      "description": "Radar HQ",
+      "tag": "work",
+      "type": "circle",
+      "geometryCenter": {
+        "coordinates": [-73.98706288531952, 40.70410290062212],
+        "type": "Point"
+      },
+      "geometryRadius": 50
+    },
+    {
+      "_id": "5b5055b3b0145bb81bbbbbb",
+      "description": "Demo Geofence",
+      "tag": "test",
+      "externalId": "123",
+      "type": "circle",
+      "geometryCenter": {
+        "coordinates": [-73.98706, 40.7041029],
+        "type": "Point"
+      },
+      "geometryRadius": 100
+    }
+  ],
+  "country": {
+    "_id": "5cf694f66da6a800683f4d71",
+    "type": "country",
+    "name": "United States",
+    "code": "US"
+  },
+  "state": {
+    "_id": "5cf695096da6a800683f4e7f",
+    "type": "state",
+    "name": "New York",
+    "code": "NY"
+  },
+  "postalCode": {
+    "_id": "5cf695286da6a800683f5911",
+    "type": "postalCode",
+    "name": "11201",
+    "code": "11201"
+  },
+  "dma": {
+    "_id": "5cf695016da6a800683f4e06",
+    "type": "dma",
+    "name": "New York",
+    "code": "501"
+  }
+}

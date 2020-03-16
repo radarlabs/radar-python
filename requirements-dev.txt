@@ -1,0 +1,4 @@
+requests>=2.22.0
+black>=19.10b0
+pytest>=5.3.5
+tox>=3.14.5

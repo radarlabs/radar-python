@@ -1,0 +1,37 @@
+{
+  "_id": "5aaaaaaa7da13e00269e0000",
+  "location": { "type": "Point", "coordinates": [-73.9869206, 40.703973] },
+  "insights": {
+    "state": {
+      "home": false,
+      "office": true,
+      "traveling": false,
+      "officeEnteredAt": "2020-03-04T15:18:20.950Z"
+    }
+  },
+  "live": false,
+  "geofences": [
+    {
+      "_id": "5da9ca0a8e695b00374807dc",
+      "description": "Radar HQ",
+      "tag": "work"
+    },
+    {
+      "_id": "5e5055b3b0145e00e8d439e0",
+      "description": "Demo Geofence",
+      "tag": "test",
+      "externalId": "123"
+    }
+  ],
+  "createdAt": "2019-10-17T14:57:56.633Z",
+  "updatedAt": "2020-03-04T15:18:20.950Z",
+  "actualUpdatedAt": "2020-03-04T15:18:20.950Z",
+  "deviceId": "bbb0b123abcde",
+  "foreground": false,
+  "stopped": true,
+  "deviceType": "Android",
+  "locationAccuracy": 15.013,
+  "ip": "12.345.678.90",
+  "userId": "u123",
+  "metadata": { "Radar Toolkit Version": "3.0.0" }
+}

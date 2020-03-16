@@ -1,0 +1,18 @@
+{
+  "_id": "5e5eeee5f9153701e246eeee",
+  "location": {
+    "coordinates": [-73.9869206, 40.703973],
+    "type": "Point"
+  },
+  "live": false,
+  "createdAt": "2020-03-04T15:18:20.950Z",
+  "type": "user.entered_office",
+  "locationAccuracy": 15.013,
+  "confidence": 3,
+  "actualCreatedAt": "2020-03-04T15:18:20.950Z",
+  "user": {
+    "_id": "5aaaaaaa7da13e00269e0000",
+    "deviceId": "bbb0b123abcde",
+    "userId": "u123"
+  }
+}
