@@ -453,7 +453,7 @@ class Geocode(_Endpoint):
         return [Address(self._radar, data) for data in raw_addresses]
 
     def ip(self, ip):
-        """Geocodes an IP address, converting IP address to country.
+        """Geocodes an IP address, converting IP address to partial address.
         
         https://radar.io/documentation/api#geocode-ip
 
@@ -461,12 +461,12 @@ class Geocode(_Endpoint):
             ip (str):  The IP address to geocode.
         
         Returns:
-            `list` of :class:`~radar.models.address.Address`
+            `:class:`~radar.models.address.Address`
         """
         path = API_PATH["geocode_ip"]
         params = {"ip": ip}
 
-        raw_address = self._get(path, params=params)
+        raw_address = self._get(path, params=params, json_key="address")
         return Address(self._radar, raw_address)
 
 

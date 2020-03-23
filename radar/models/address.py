@@ -14,7 +14,8 @@ class Address(Model):
         distance (float)
         formattedAddress (str)
         geometry (GeoJSON.Point)
-        name (str)
+        addressLabel (str)
+        placeLabel (str)
         number (str)
         latitude (float)
         longitude (float)
@@ -31,4 +32,5 @@ class Address(Model):
         "latitude",
         "longitude",
         "formattedAddress",
+        "placeLabel",
     )

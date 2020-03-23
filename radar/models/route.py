@@ -66,11 +66,12 @@ class Route:
             self.duration = None
 
     def __repr__(self):
-        display_str = f"<distance={self.distance.text}"
+        fields = []
+        if self.distance:
+            fields.append(f"distance={self.distance.text}")
         if self.duration:
-            display_str += f" duration={self.duration.text}>"
-        else:
-            display_str += ">"
+            fields.append(f"duration={self.duration.text}")
+        display_str = f"<{' '.join(fields)}>"
         return display_str
 
 
@@ -96,15 +97,12 @@ class Routes(Model):
         self._radar = radar
         self.raw_json = data
         for attribute, value in data.items():
-            if attribute in ["transit", "car", "bike", "foot"]:
+            if attribute in ["geodesic", "transit", "car", "bike", "foot"]:
                 route = Route(
                     distance=value.get("distance"),
                     duration=value.get("duration"),
                     mode=attribute,
                 )
-                setattr(self, attribute, route)
-            elif attribute in ["geodesic"]:
-                route = Route(distance=value, mode=attribute)
                 setattr(self, attribute, route)
             else:
                 setattr(self, attribute, value)
